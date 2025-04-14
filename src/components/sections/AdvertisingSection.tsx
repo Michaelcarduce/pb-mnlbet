@@ -9,7 +9,7 @@ export const AdvertisingSection = () => {
   return (
     <section className={cn("p-8 md:p-12 ")}>
       <Heading2 className={cn("mb-4 md:mb-6 text-center")}>
-        Why You'll Love Panalobet's Advertising
+        Why You&apos;ll Love Panalobet&apos;s Advertising
       </Heading2>
       <Paragraph className={cn("mb-4 md:mb-6 text-center")}>
         Bonuses and promotions are clearly one of the main attractions of online
@@ -35,7 +35,7 @@ export const AdvertisingSection = () => {
         play, win, and return for more.
       </Paragraph>
       <Paragraph className={cn("mb-4 md:mb-6 text-center")}>
-        Hence, don't miss these amazing chances! Sign up now, collect your
+        Hence, don&apos;t miss these amazing chances! Sign up now, collect your
         welcome bonus, and begin looking at the extensive array of specials
         Panalobet offers. The excitement never ends at Panalobet; fresh bonuses,
         cashback awards, and daily fascinating challenges abound!

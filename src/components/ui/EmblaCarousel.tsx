@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
 import { EmblaOptionsType } from "embla-carousel";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
@@ -52,7 +53,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
               className="embla__slide flex-[0_0_100%] min-w-0"
               key={slide.id}>
               <a href={slide.link} className="block relative group">
-                <img
+                <Image
                   src={slide.imageUrl}
                   alt={slide.title}
                   className="w-full h-auto object-cover"

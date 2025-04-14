@@ -13,8 +13,8 @@ export const WhyPanalobetSection = () => {
       </Heading2>
       <Paragraph className={cn("mb-4 md:mb-6 text-center")}>
         At Panalobet, we take great satisfaction in providing a thrilling, safe,
-        secure gaming experience. Here's the reason we're fast rising to be the
-        top pick among Filipino players:
+        secure gaming experience. Here&apos;s the reason we&apos;re fast rising
+        to be the top pick among Filipino players:
       </Paragraph>
       <div className="bg-[radial-gradient(circle_at_center,_#10122b_0%,_#171717_100%)] justify-center">
         <FeatureCardCarousel

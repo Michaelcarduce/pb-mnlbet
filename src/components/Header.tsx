@@ -5,7 +5,7 @@ import Image from "next/image";
 import Button from "@/components/ui/Button";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import useIsMobile from "@/hooks/useIsMobile";
 import { AnimatedHamburger } from "@/components/ui/AnimatedHamburger";
 

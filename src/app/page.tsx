@@ -1,7 +1,6 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import Image from "next/image";
 import { EmblaOptionsType } from "embla-carousel";
 import { carouselItems } from "@/data/carouselData";
 import Stats from "@/components/Stats";

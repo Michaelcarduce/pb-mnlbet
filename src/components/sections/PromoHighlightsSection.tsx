@@ -20,12 +20,12 @@ export const PromoHighlightsSection = () => {
       <Paragraph className={cn("mb-4 md:mb-6 text-center")}>
         At Panalobet, we think that the availability of promotions and
         incentives for players is one of the main factors contributing to the
-        excitement of online gaming. Who doesn't love a terrific deal or the
-        possibility to optimize their bankroll right from the beginning? This is
-        why we have carefully created a selection of interesting offers to
-        guarantee that every player, regardless of experience level or freshness
-        on the scene, feels appreciated, driven, and supported to enter the
-        realm of casino activity.
+        excitement of online gaming. Who doesn&apos;t love a terrific deal or
+        the possibility to optimize their bankroll right from the beginning?
+        This is why we have carefully created a selection of interesting offers
+        to guarantee that every player, regardless of experience level or
+        freshness on the scene, feels appreciated, driven, and supported to
+        enter the realm of casino activity.
       </Paragraph>
       <WelcomeBonusPromotion
         title="Welcome Bonuses: Your Secret to a Great Start"
