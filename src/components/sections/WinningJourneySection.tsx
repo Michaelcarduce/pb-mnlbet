@@ -69,7 +69,7 @@ export const WinningJourneySection = () => {
         Join now to discover the thrills, entertainment value, and limitless
         opportunities that Panalobet presents!
       </Paragraph>
-      <div className="flex flex-col gap-2">
+      {/* <div className="flex flex-col gap-2">
         <div className="w-full">
           <div className="w-full">
             <ImageComponent
@@ -116,7 +116,7 @@ export const WinningJourneySection = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
