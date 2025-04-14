@@ -4,7 +4,7 @@ import { Heading3 } from "@/components/typography/Heading3";
 import { Paragraph } from "@/components/typography/Paragraph";
 import { AwardPromotion } from "@/components/promotions/AwardPromotion";
 import { FeatureSection } from "@/components/sections/FeatureSection";
-import { ImageComponent } from "@/components/ui/ImageComponent";
+// import { ImageComponent } from "@/components/ui/ImageComponent";
 
 import React from "react";
 
