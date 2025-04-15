@@ -6,15 +6,15 @@ interface Heading4Props extends HTMLAttributes<HTMLHeadingElement> {
   className?: string;
 }
 
-export const Heading4 = ({ children, className, ...props }: Heading4Props) => {
+export const Heading5 = ({ children, className, ...props }: Heading4Props) => {
   return (
-    <h4
+    <h5
       className={cn(
-        "text-xl md:text-2xl font-semibold tracking-tight bg-gradient-to-b from-[#dbdbc5] via-[#dbdbc5] via-[#c6c6af] to-[#dbdbc5] bg-clip-text text-transparent",
+        "text-lg md:text-xl font-semibold tracking-tight bg-gradient-to-b from-[#dbdbc5] via-[#dbdbc5] via-[#c6c6af] to-[#dbdbc5] bg-clip-text text-transparent",
         className
       )}
       {...props}>
       {children}
-    </h4>
+    </h5>
   );
 };

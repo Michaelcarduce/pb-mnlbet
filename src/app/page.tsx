@@ -107,7 +107,7 @@ export default function Home() {
         titleClassName="text-center"
         descriptionClassName=""
         paragraphClassName="blocks text-left text-gray-300 bg-[radial-gradient(circle_at_center,_#31399a_0%,_#252b73_100%)] border-[1.5px] border-amber-800 rounded-[20px] p-4 md:p-6 "
-        img="/img/sectionImg2.webp"
+        img="/img/Best GCash-Ready Online Casino.webp"
       />
       <PromoHighlightsSection />
       <AdvertisingSection />

@@ -56,7 +56,13 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                 <Image
                   src={slide.imageUrl}
                   alt={slide.title}
-                  className="w-full h-auto object-cover"
+                  width={1920}
+                  height={500}
+                  className="object-cover"
+                  priority={slide.id === 1}
+                  style={{
+                    objectPosition: "center center",
+                  }}
                 />
               </a>
             </div>
