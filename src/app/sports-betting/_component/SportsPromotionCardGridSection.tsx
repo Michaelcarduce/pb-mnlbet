@@ -5,7 +5,7 @@ import { casinoCardGridPromotionItems } from "@/data/casinoCardGridPromotionData
 import Button from "@/components/ui/Button";
 import React from "react";
 
-export const PromotionCardGridSection = () => {
+export const SportsPromotionCardGridSection = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {

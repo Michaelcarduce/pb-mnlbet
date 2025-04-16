@@ -198,7 +198,7 @@ export default function FeatureCardCarousel({
       {/* Thumbnail Navigation - Now scrollable */}
       {cards.length > 1 && (
         <div className="relative">
-          <div className="flex overflow-x-auto py-4 gap-2 md:gap-4 scrollbar-hide">
+          <div className="flex overflow-x-auto py-4 gap-2 md:gap-4 scrollbar-hide justify-center">
             {cards.map((card) => {
               const isActive = card.id === cards[activeIndex].id;
               return (

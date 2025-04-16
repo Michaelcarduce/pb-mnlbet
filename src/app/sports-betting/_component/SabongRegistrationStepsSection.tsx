@@ -1,17 +1,17 @@
 import { cn } from "@/lib/utils";
 import { Heading2 } from "@/components/typography/Heading2";
-// import { Steps } from "@/components/ui/Steps";
-// import { sabongRegistrationData } from "@/data/sabongRegistrationData";
+import { Steps } from "@/components/ui/Steps";
+import { sabongRegistrationData } from "@/data/sabongRegistrationData";
 import React from "react";
 
-export const SabongGCashFundDeposit = () => {
+export const SabongRegistrationStepsSection = () => {
   return (
-    <section className={cn("p-8 md:p-12 ")}>
+    <section className={cn("p-8 md:p-12")}>
       <Heading2 className={cn("mb-4 md:mb-6 text-center")}>
-        How to make a GCash fund deposit?
+        Registering for Panalobet Sabong Live
       </Heading2>
       <div className="">
-        {/* <Steps
+        <Steps
           cards={sabongRegistrationData}
           cardClassName="w-full "
           activeCardClassName="w-full"
@@ -21,7 +21,7 @@ export const SabongGCashFundDeposit = () => {
           activeStepIndicatorClassName="font-bold bg-yellow-500 text-[#960525] border-yellow-400"
           titleClassName="text-left mb-2 md:mb-4"
           descriptionClassName=""
-        /> */}
+        />
       </div>
     </section>
   );

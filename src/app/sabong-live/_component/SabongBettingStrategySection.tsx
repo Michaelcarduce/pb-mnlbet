@@ -1,18 +1,23 @@
 import { cn } from "@/lib/utils";
 import { Heading2 } from "@/components/typography/Heading2";
+import { Paragraph } from "@/components/typography/Paragraph";
 import { Steps } from "@/components/ui/Steps";
-import { sabongRegistrationData } from "@/data/sabongRegistrationData";
+import { sabongBettingStrategyData } from "@/data/sabongBettingStrategyData";
 import React from "react";
 
-export const SabongRegistrationStepsSection = () => {
+export const SabongBettingStrategySection = () => {
   return (
     <section className={cn("p-8 md:p-12")}>
       <Heading2 className={cn("mb-4 md:mb-6 text-center")}>
-        Registering for Panalobet Sabong Live
+        Maximizing Your Panalobet Betting Strategy
       </Heading2>
+      <Paragraph className={cn("mb-4 md:mb-6 text-center")}>
+        Consider these strategic concepts if you want to improve your winning
+        chances and betting experience:
+      </Paragraph>
       <div className="">
         <Steps
-          cards={sabongRegistrationData}
+          cards={sabongBettingStrategyData}
           cardClassName="w-full "
           activeCardClassName="w-full"
           lineColor="bg-gray-500/20"
@@ -23,6 +28,11 @@ export const SabongRegistrationStepsSection = () => {
           descriptionClassName=""
         />
       </div>
+      <Paragraph className={cn("mb-4 md:mb-6 text-center")}>
+        Following these wise tips can help bettors enhance their experience,
+        shar their decision-making, and increase their chances of large wins on
+        Panalobet Sabong Live.
+      </Paragraph>
     </section>
   );
 };
