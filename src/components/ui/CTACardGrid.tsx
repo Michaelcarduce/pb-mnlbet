@@ -48,19 +48,19 @@
 
 import Image from "next/image";
 import Button from "@/components/ui/Button";
-import { SportsCardProps } from "@/types/sportsCardItem";
+import { CTACardProps } from "@/types/ctaCardItem";
 import { cn } from "@/lib/utils";
 
 const CTACardGrid = ({
   mainImage,
-  sportsCardItems,
+  cTACardItems,
   cta,
   containerClassName = "",
   mainImageContainerClassName = "",
   gridContainerClassName = "",
   gridItemClassName = "",
   ctaContainerClassName = "",
-}: SportsCardProps) => {
+}: CTACardProps) => {
   return (
     <div className={cn(containerClassName)}>
       <div className={cn(mainImageContainerClassName)}>
@@ -74,7 +74,7 @@ const CTACardGrid = ({
       </div>
       <div>
         <div className={cn(gridContainerClassName)}>
-          {sportsCardItems.map((item, index) => (
+          {cTACardItems.map((item, index) => (
             <div key={index} className={cn(gridItemClassName, item.className)}>
               <Image
                 src={item.src}

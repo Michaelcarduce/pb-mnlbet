@@ -1,4 +1,4 @@
-export type SportsCardItem = {
+export type CTACardItem = {
   src: string;
   alt: string;
   width: number;
@@ -6,9 +6,9 @@ export type SportsCardItem = {
   className?: string;
 };
 
-export type SportsCardProps = {
-  mainImage: SportsCardItem;
-  sportsCardItems: SportsCardItem[];
+export type CTACardProps = {
+  mainImage: CTACardItem;
+  cTACardItems: CTACardItem[];
   cta: {
     text: string;
     href: string;

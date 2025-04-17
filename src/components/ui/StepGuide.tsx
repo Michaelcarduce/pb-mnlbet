@@ -271,21 +271,33 @@ export const StepGuide = ({
                   </Heading5>
                 )}
                 {step.subList && (
-                  <Paragraph className={cn("", descriptionClassName)}>
-                    <ul
-                      className={cn(
-                        "list-disc pl-8 md:pl-10",
-                        subListClassName
-                      )}>
-                      {step.subList.map((item) => (
-                        <li
-                          key={item.id}
-                          className={cn("", subListItemClassName)}>
+                  // <Paragraph className={cn("", descriptionClassName)}>
+                  //   <ul
+                  //     className={cn(
+                  //       "list-disc pl-8 md:pl-10",
+                  //       subListClassName
+                  //     )}>
+                  //     {step.subList.map((item) => (
+                  //       <li
+                  //         key={item.id}
+                  //         className={cn("", subListItemClassName)}>
+                  //         {item.description}
+                  //       </li>
+                  //     ))}
+                  //   </ul>
+                  // </Paragraph>
+                  <ul
+                    className={cn("list-disc pl-8 md:pl-10", subListClassName)}>
+                    {step.subList.map((item) => (
+                      <li
+                        key={item.id}
+                        className={cn("", subListItemClassName)}>
+                        <Paragraph className={cn("", descriptionClassName)}>
                           {item.description}
-                        </li>
-                      ))}
-                    </ul>
-                  </Paragraph>
+                        </Paragraph>
+                      </li>
+                    ))}
+                  </ul>
                 )}
               </div>
             </div>
