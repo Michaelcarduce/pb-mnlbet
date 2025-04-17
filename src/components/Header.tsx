@@ -116,7 +116,7 @@ export default function Header() {
             <Link href="/casino" className={getNavLinkClasses("/casino")}>
               Casino
             </Link>
-            <Link href="/slots" className={getNavLinkClasses("/slots")}>
+            <Link href="/slot" className={getNavLinkClasses("/slot")}>
               Slots
             </Link>
             <Link href="/about-us" className={getNavLinkClasses("/about-us")}>
