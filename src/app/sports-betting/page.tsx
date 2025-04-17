@@ -2,15 +2,13 @@
 
 import { SportsPromotionCardGridSection } from "./_component/SportsPromotionCardGridSection";
 import { IntroSection } from "@/components/sections/IntroSection";
-import { SportsMeronAgainstWalaSection } from "./_component/SportsMeronAgainstWalaSection";
-
-// import { SabongRegistrationStepsSection } from "./_component/SabongRegistrationStepsSection";
-// import { SabongGCashFundDepositSection } from "./_component/SabongGCashFundDepositSection";
-// import { SabongMainCharacteristicsSection } from "./_component/SabongMainCharacteristicsSection";
-// import { SabongBreedOfGamefowlSection } from "./_component/SabongBreedOfGamefowlSection";
-// import { SabongGCashWithdrawWinsSection } from "./_component/SabongGCashWithdrawWinsSection";
-// import { SabongBettingStrategySection } from "./_component/SabongBettingStrategySection";
-// import { SabongConclusionSection } from "./_component/SabongConclusionSection";
+import { SportsWhyPanalobetSection } from "./_component/SportsWhyPanalobetSection";
+import { SportsMarketSection } from "./_component/SportsMarketSection";
+import { FeatureSection } from "@/components/sections/FeatureSection";
+import { SportsPerfectingOddsSection } from "./_component/SportsPerfectingOddsSection";
+import { SportsBetsKindSection } from "./_component/SportsBetsKindSection";
+import { SportsBettingSuccessGuidlinesSection } from "./_component/SportsBettingSuccessGuidlinesSection";
+import { SportsSummarySection } from "./_component/SportsSummarySection";
 
 export default function SportsBetting() {
   return (
@@ -42,15 +40,27 @@ export default function SportsBetting() {
         descriptionClassName="mx-auto max-w-5xl"
         paragraphClassName="text-center text-gray-300"
       />
-      <SportsMeronAgainstWalaSection />
-
-      {/* <SabongRegistrationStepsSection />
-      <SabongGCashFundDepositSection />
-      <SabongMainCharacteristicsSection />
-      <SabongBreedOfGamefowlSection />
-      <SabongGCashWithdrawWinsSection />
-      <SabongBettingStrategySection />
-      <SabongConclusionSection /> */}
+      <SportsWhyPanalobetSection />
+      <SportsMarketSection />
+      <FeatureSection
+        title="Niche Games & eSports"
+        description={[
+          "Apart from conventional sports, Panalobet serves enthusiasts of eSports and specialized sports as well. eSports is increasingly of interest to the Philippines, and Panalobet offers a range of betting choices on games including Dota 2, League of Legend, and CS: GO.",
+          "Among the most culturally important sports in the Philippines, sabong (cockfighting) is especially dear to Panalobet's services. Count on live cockfighting contests all throughout the nation.",
+          "Panalobet offers a wide spectrum of sports, hence there is never a scarcity of betting chances there. This site provides a wide range of betting markets that keep things exciting regardless of your interests in mainstream sports or search for something else.",
+        ]}
+        className="bg-[radial-gradient(circle_at_center,_#1E1E1E_0%,_#171717_50%)]"
+        titleClassName="text-center"
+        dividerClassName="flex-col-reverse md:flex-row"
+        descriptionClassName=""
+        paragraphClassName="text-left text-gray-300"
+        img="/img/sectionImg1.webp"
+      />
+      <SportsPerfectingOddsSection />
+      <div className="pb-8 md:pb-12 "></div>
+      <SportsBetsKindSection />
+      <SportsBettingSuccessGuidlinesSection />
+      <SportsSummarySection />
     </main>
   );
 }

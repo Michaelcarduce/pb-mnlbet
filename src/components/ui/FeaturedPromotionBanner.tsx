@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { PromotionBannerItem } from "@/types/promotionBanner";
+import Image from "next/image";
 
 interface FeaturedPromotionBannerProps {
   items: PromotionBannerItem[];
@@ -50,14 +51,19 @@ export default function FeaturedPromotionBanner({
   return (
     <div className={`w-full mb-6 md:mb-8 ${className}`}>
       <div className={bannerClassName}>
-        <a href={items[activeIndex].link}>
-          <img
-            src={items[activeIndex].imageUrl}
-            alt={items[activeIndex].alt}
-            className="w-full h-auto object-cover"
-            loading="lazy"
-          />
-        </a>
+        <div className="w-full">
+          <a href={items[activeIndex].link}>
+            <Image
+              src={items[activeIndex].imageUrl}
+              alt={items[activeIndex].alt}
+              width={800}
+              height={200}
+              className="w-full h-auto"
+              sizes="100%"
+              loading="lazy"
+            />
+          </a>
+        </div>
       </div>
 
       <div className="flex justify-center gap-3">
@@ -73,10 +79,14 @@ export default function FeaturedPromotionBanner({
                 isActive ? activeThumbnailClassName : inactiveThumbnailClassName
               }`}
               aria-label={`View ${item.title}`}>
-              <img
+              <Image
                 src={item.imageUrl}
                 alt={item.alt}
                 className={thumbnailClassName}
+                width={0}
+                height={0}
+                sizes="100%"
+                loading="lazy"
               />
             </button>
           );

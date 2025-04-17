@@ -2,12 +2,9 @@ import { cn } from "@/lib/utils";
 import { FeatureSection } from "@/components/sections/FeatureSection";
 import React from "react";
 
-export const SportsMeronAgainstWalaSection = () => {
+export const SportsWhyPanalobetSection = () => {
   return (
-    <section
-      className={cn(
-        "p-8 md:p-12 bg-[radial-gradient(circle_at_center,_#171717_0%,_#1F1F1F_100%)] rounded-[7px] shadow-md"
-      )}>
+    <section className={cn("")}>
       <FeatureSection
         title="Why Choose Panalobet?"
         description={[
