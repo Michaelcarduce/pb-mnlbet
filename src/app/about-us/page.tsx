@@ -8,7 +8,7 @@ import { AboutUsWhyWantSection } from "./_component/AboutUsWhyWantSection";
 import { AboutUsResponsibleGamingSection } from "./_component/AboutUsResponsibleGamingSection";
 import { AboutUsPanalobetCommunitySection } from "./_component/AboutUsPanalobetCommunitySection";
 
-export default function Slot() {
+export default function AboutUs() {
   return (
     <main>
       <AboutUsPromotionCardGridSection />
