@@ -8,6 +8,7 @@ export interface stepGuideItem {
   title: string;
   img: string;
   description: string;
+  moreDescriptions?: string;
   subTitle?: string;
   subList?: SubListItem[];
 }

@@ -300,6 +300,9 @@ export const StepGuide = ({
                   </ul>
                 )}
               </div>
+              <Paragraph className={cn("", descriptionClassName)}>
+                {step.moreDescriptions}
+              </Paragraph>
             </div>
           </motion.div>
         ))}
