@@ -119,6 +119,11 @@ export default function Header() {
             <Link href="/slot" className={getNavLinkClasses("/slot")}>
               Slots
             </Link>
+            <Link
+              href="/promotions"
+              className={getNavLinkClasses("/promotions")}>
+              Promotions
+            </Link>
             <Link href="/about-us" className={getNavLinkClasses("/about-us")}>
               About Us
             </Link>
@@ -129,6 +134,9 @@ export default function Header() {
             </Link>
             <Link href="/affiliate" className={getNavLinkClasses("/affiliate")}>
               Affiliate
+            </Link>
+            <Link href="/news" className={getNavLinkClasses("/news")}>
+              News
             </Link>
           </div>
           <div className="flex justify-center items-center mt-4 gap-4 mx-auto md:hidden">
