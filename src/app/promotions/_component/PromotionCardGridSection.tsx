@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import PromotionCardGrid from "@/components/ui/PromotionCardGrid";
 import { casinoCardGridPromotionItems } from "@/data/casinoCardGridPromotionData";
-import Button from "@/components/ui/Button";
 import { Heading2 } from "@/components/typography/Heading2";
 import React from "react";
 
