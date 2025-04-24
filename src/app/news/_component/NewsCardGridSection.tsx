@@ -4,7 +4,7 @@ import NewsCardGrid from "@/components/ui/NewsCardGrid";
 import { newsItems } from "@/data/newsData";
 import React from "react";
 
-export const PromotionCardGridSection = () => {
+export const NewsCardGridSection = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {

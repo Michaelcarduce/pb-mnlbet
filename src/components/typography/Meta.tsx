@@ -9,7 +9,10 @@ interface MetaTextProps extends HTMLAttributes<HTMLSpanElement> {
 export const Meta = ({ children, className, ...props }: MetaTextProps) => {
   return (
     <span
-      className={cn("text-xs text-gray-500 dark:text-gray-400", className)}
+      className={cn(
+        "leading-relaxed text-xs md:text-sm lg:text-base",
+        className
+      )}
       {...props}>
       {children}
     </span>

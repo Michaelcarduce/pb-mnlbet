@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -58,3 +62,33 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* Anchor Tag */
+article p a.anchorlinks {
+  text-decoration: none;
+}
+
+article p a.anchorlinks {
+  color: #fff700;
+  position: relative;
+  font-weight: 600;
+}
+
+article p a.anchorlinks::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #fff700;
+  transform-origin: bottom right;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+
+article p a.anchorlinks:hover::before {
+  transform-origin: bottom left;
+  transform: scaleX(1);
+}
+/* - Anchor Tag */

@@ -1,11 +1,10 @@
 import { newsCardGridItem } from "@/types/newsCardGridItem";
 import { Heading5 } from "@/components/typography/Heading5";
 import Image from "next/image";
-import Button from "@/components/ui/Button";
+import Link from "next/link";
 import { motion, Variants } from "framer-motion";
-import { Paragraph } from "../typography/Paragraph";
 
-interface NewsCardGridProps {
+interface RecentNewsCardGridProps {
   items: newsCardGridItem[];
   className?: string;
   cardClassName?: string;
@@ -46,7 +45,7 @@ const goldBorderVariants: Variants = {
   },
 };
 
-export default function NewsCardGrid({
+export default function RecentNewsCardGrid({
   items,
   className = "",
   cardClassName = "",
@@ -56,7 +55,7 @@ export default function NewsCardGrid({
   isLoading = false,
   skeletonCount = 2,
   limit = 0,
-}: NewsCardGridProps) {
+}: RecentNewsCardGridProps) {
   const displayedItems = limit > 0 ? items.slice(0, limit) : items;
 
   if (isLoading) {
@@ -88,7 +87,10 @@ export default function NewsCardGrid({
               background:
                 "linear-gradient(135deg, #f9d423 0%, #ff4e50 50%, #f9d423 100%)",
             }}>
-            <div
+            <Link
+              target="_blank"
+              rel="noopener noreferrer"
+              href={`/news/${item.slug}`}
               className={`flex flex-col w-full rounded-xl shadow-md overflow-hidden ${cardClassName}`}>
               {/* Fully responsive image container */}
               <div className={`relative w-full aspect-[5/2] ${imageClassName}`}>
@@ -109,26 +111,11 @@ export default function NewsCardGrid({
               </div>
 
               <div className="flex flex-col p-4">
-                <Heading5 className={`mb-4 ${titleClassName}`}>
+                <Heading5 className={`${titleClassName}`}>
                   {item.title}
                 </Heading5>
-                <Paragraph className={`mb-4 ${subTitleClassName}`}>
-                  {item.subTitle}
-                </Paragraph>
-
-                <div className="flex justify-left">
-                  <Button
-                    label="Read more"
-                    href={`/news/${item.slug}`}
-                    gradientStart="#ff4e50"
-                    gradientEnd="#f60015"
-                    shadowInset={true}
-                    width="150px"
-                    newTab={true}
-                  />
-                </div>
               </div>
-            </div>
+            </Link>
           </motion.div>
         </motion.div>
       ))}

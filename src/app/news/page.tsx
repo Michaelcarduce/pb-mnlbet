@@ -1,7 +1,7 @@
 "use client";
 
 import { IntroSection } from "@/components/sections/IntroSection";
-import { PromotionCardGridSection } from "./_component/PromotionCardGridSection";
+import { NewsCardGridSection } from "./_component/NewsCardGridSection";
 
 export default function News() {
   return (
@@ -14,7 +14,7 @@ export default function News() {
         descriptionClassName="mx-auto max-w-5xl"
         paragraphClassName="text-center text-gray-300"
       />
-      <PromotionCardGridSection />
+      <NewsCardGridSection />
     </main>
   );
 }
