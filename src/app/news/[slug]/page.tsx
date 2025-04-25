@@ -24,18 +24,22 @@ interface ContentItem {
   imageUrl: string;
 }
 
-interface ShowNewsProps {
-  params: {
-    slug: string;
-  };
-  searchParams?: { [key: string]: string | string[] | undefined };
-}
+// interface ShowNewsProps {
+//   params: {
+//     slug: string;
+//   };
+//   searchParams?: { [key: string]: string | string[] | undefined };
+// }
 // async function Page({ params }) {
 //   // asynchronous access of `params.id`.
 //   const { id } = await params;
 //   return <p>ID: {id}</p>;
 // }
-export default async function ShowNews({ params }: ShowNewsProps) {
+export default async function ShowNews({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
   const { slug } = await params;
 
   const newsItem = newsItems.find((item) => item.slug === slug);
