@@ -1,3 +1,14 @@
+interface ListItem {
+  id: string;
+  description: string;
+}
+
+interface ContentItem {
+  id: string;
+  class: string;
+  description?: string | ListItem[];
+  imageUrl?: string;
+}
 export interface NewsItem {
   id: number;
   title: string;
@@ -9,7 +20,7 @@ export interface NewsItem {
   alt: string;
   author: string;
   date: string;
-  content: {};
+  content: ContentItem[];
 }
 
 export const newsItems: NewsItem[] = [

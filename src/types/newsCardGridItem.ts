@@ -1,3 +1,14 @@
+interface ListItem {
+  id: string;
+  description: string;
+}
+
+interface ContentItem {
+  id: string;
+  class: string;
+  description?: string | ListItem[];
+  imageUrl?: string;
+}
 export interface newsCardGridItem {
   id: number;
   title: string;
@@ -9,5 +20,5 @@ export interface newsCardGridItem {
   alt: string;
   author?: string;
   date?: string;
-  content?: {};
+  content: ContentItem[];
 }

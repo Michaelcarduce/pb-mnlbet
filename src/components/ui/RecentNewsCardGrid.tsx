@@ -10,7 +10,6 @@ interface RecentNewsCardGridProps {
   cardClassName?: string;
   imageClassName?: string;
   titleClassName?: string;
-  subTitleClassName?: string;
   isLoading?: boolean;
   skeletonCount?: number;
   limit?: number;
@@ -51,7 +50,6 @@ export default function RecentNewsCardGrid({
   cardClassName = "",
   imageClassName = "",
   titleClassName = "",
-  subTitleClassName = "",
   isLoading = false,
   skeletonCount = 2,
   limit = 0,

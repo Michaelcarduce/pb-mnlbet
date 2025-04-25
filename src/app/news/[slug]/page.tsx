@@ -1,6 +1,7 @@
 import { newsItems } from "@/data/newsData";
 import { ReactNode } from "react";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 import { Heading1 } from "@/components/typography/Heading1";
 import { Heading2 } from "@/components/typography/Heading2";
 import { Heading3 } from "@/components/typography/Heading3";
@@ -20,28 +21,29 @@ interface ContentItem {
   id: string;
   class: string;
   description?: string | ListItem[];
-  imageUrl?: string;
+  imageUrl: string;
 }
 
 interface ShowNewsProps {
   params: {
     slug: string;
   };
+  searchParams?: { [key: string]: string | string[] | undefined };
 }
-
+// async function Page({ params }) {
+//   // asynchronous access of `params.id`.
+//   const { id } = await params;
+//   return <p>ID: {id}</p>;
+// }
 export default async function ShowNews({ params }: ShowNewsProps) {
-  // Destructure params directly (no await needed for params)
   const { slug } = await params;
 
-  // Currently using local data, but prepared for API fetch:
-  // const newsItem = await fetch(`/api/news/${slug}`).then(res => res.json());
   const newsItem = newsItems.find((item) => item.slug === slug);
 
   if (!newsItem) {
     return <div>News not found</div>;
   }
 
-  // Type assertion for content
   const content = newsItem.content as ContentItem[];
 
   const renderDescription = (
@@ -89,10 +91,12 @@ export default async function ShowNews({ params }: ShowNewsProps) {
       <div className="grid grid-cols-1 lg:grid-cols-[16%_65%_17.5%] lg:gap-2 px-2 lg:px-0">
         {/* Banner */}
         <div className="lg:hidden order-1 col-span-1 mb-2 flex justify-center">
-          <img
+          <Image
+            className="mx-auto lg:mx-0 w-full h-auto rounded-lg"
             src={newsItem.imageUrl}
             alt={newsItem.alt}
-            className="w-full h-auto rounded-lg"
+            width={210}
+            height={70}
           />
         </div>
 
@@ -111,10 +115,12 @@ export default async function ShowNews({ params }: ShowNewsProps) {
         {/* Main Content */}
         <div className="lg:order-2 order-3 col-span-1 lg:col-span-1">
           <div className="hidden mb-2 md:mb-4 lg:flex justify-center">
-            <img
+            <Image
+              className="mx-auto lg:mx-0 w-full h-auto rounded-lg"
               src={newsItem.imageUrl}
               alt={newsItem.alt}
-              className="w-full h-auto rounded-lg"
+              width={210}
+              height={70}
             />
           </div>
 
@@ -205,10 +211,12 @@ export default async function ShowNews({ params }: ShowNewsProps) {
                 case "subImg":
                   return (
                     <div key={contentItem.id} className="my-2 md:my-4">
-                      <img
+                      <Image
+                        className="mx-auto lg:mx-0 max-w-[600px] w-full h-auto rounded-lg"
                         src={contentItem.imageUrl}
                         alt={newsItem.alt}
-                        className="max-w-[600px] w-full h-auto rounded-lg"
+                        width={210}
+                        height={70}
                       />
                     </div>
                   );
@@ -252,9 +260,7 @@ export default async function ShowNews({ params }: ShowNewsProps) {
   );
 }
 
-export async function generateStaticParams() {
-  // If using API later, you might fetch slugs here:
-  // const newsItems = await fetch('/api/news').then(res => res.json());
+export async function generateStaticParams(): Promise<Array<{ slug: string }>> {
   return newsItems.map((item) => ({
     slug: item.slug,
   }));
