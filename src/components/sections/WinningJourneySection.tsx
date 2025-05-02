@@ -52,7 +52,7 @@ export const WinningJourneySection = () => {
         dividerClassName="flex-col-reverse md:flex-row"
         descriptionClassName=""
         paragraphClassName="text-left text-gray-300"
-        img="/img/sectionImg1.webp"
+        img="/img/homepage/A Universe of Gaming.webp"
       />
       <Heading3 className={cn("mb-4 lg:mb-6 text-center mt-8 lg:mt-12")}>
         Your Winning Trip Begins Here

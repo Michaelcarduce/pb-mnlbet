@@ -80,7 +80,7 @@ export default function Home() {
         dividerClassName="flex-col-reverse md:flex-row"
         descriptionClassName=""
         paragraphClassName="text-left text-gray-300"
-        img="/img/sectionImg1.webp"
+        img="/img/homepage/Prepare to Unlock.webp"
       />
       <PartnerSection
         title="Best GCash-Ready Online Casino: Panalobet from the Philippines"
@@ -124,7 +124,7 @@ export default function Home() {
         dividerClassName="flex-col-reverse md:flex-row"
         descriptionClassName=""
         paragraphClassName="text-left text-gray-300"
-        img="/img/sectionImg1.webp"
+        img="/img/homepage/The Practicality of Playing.webp"
       />
       <WhyPanalobetSection />
       <FeatureSection
@@ -140,7 +140,7 @@ export default function Home() {
         dividerClassName="flex-col-reverse md:flex-row-reverse"
         descriptionClassName=""
         paragraphClassName="text-left text-gray-300"
-        img="/img/sectionImg1.webp"
+        img="/img/homepage/Responsible Gambling.webp"
       />
       <WinningJourneySection />
     </main>
