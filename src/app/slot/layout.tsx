@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Panalobet - Slot",
-  description: "This is a panalobet website built using next.js",
+  title: "Easy GCash transactions for Panalobet slots.",
+  description:
+    "Learn how to use GCash for fast, secure transactions on Panalobet slots. Play top scatter slot games with ease and enjoy free spins, bonuses and big wins!",
 };
 
 export default function SlotLayout({

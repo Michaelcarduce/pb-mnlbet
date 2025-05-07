@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Panalobet - Contact Us",
-  description: "This is a panalobet website built using next.js",
+  title: "Contact Panalobet | 24/7 Customer Support for All Games",
+  description:
+    "Need help? Contact Panalobet's 24/7 support team for quick assistance with game, payment or technical issues. We're here to help anytime, anywhere.",
 };
 
 export default function ContactUsLayout({

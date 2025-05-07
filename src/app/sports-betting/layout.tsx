@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Panalobet - Sports Betting",
-  description: "This is a panalobet website built using next.js",
+  title: "Tips for Beginners & Pros For Sport Betting with Panalobet",
+  description:
+    "Master online sports betting with Panalobet! Get expert tips and the best strategies to boost your success - perfect for both beginners and pros.",
 };
 
 export default function SportsBettingLayout({

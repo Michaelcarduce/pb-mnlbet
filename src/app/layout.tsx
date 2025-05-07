@@ -17,8 +17,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Panalobet",
-  description: "This is a panalobet website built using next.js",
+  title: "Play top online casino games with bonuses at Panalobet PH",
+  description:
+    "Panalobet PH offers top casino games, big bonuses, secure play & promos. Join now and start winning from the comfort of your home!",
 };
 
 export default function RootLayout({
