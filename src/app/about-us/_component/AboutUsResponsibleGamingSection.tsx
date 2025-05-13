@@ -17,7 +17,7 @@ export const AboutUsResponsibleGamingSection = () => {
         dividerClassName="flex-col-reverse md:flex-row"
         descriptionClassName=""
         paragraphClassName="text-left text-gray-300"
-        img="/img/sectionImg1.webp"
+        img="/img/aboutus/modified.webp"
       />
       <div className="pb-8 md:pb-12"></div>
       <HeadingSubHeading

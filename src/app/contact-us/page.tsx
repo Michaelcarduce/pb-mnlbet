@@ -32,7 +32,7 @@ export default function ContactUs() {
         dividerClassName="flex-col-reverse md:flex-row"
         descriptionClassName=""
         paragraphClassName="text-center md:text-left text-gray-300"
-        img="/img/sportsImage1.webp"
+        img="/img/contact/get-in-touch.webp"
         btnLink="/"
         btnText="PLAY NOW"
         buttonClassName="flex justify-center md:justify-start py-4 md:py-6"
@@ -50,7 +50,7 @@ export default function ContactUs() {
         titleClassName="text-center"
         descriptionClassName=""
         paragraphClassName="blocks text-left text-gray-300 bg-[radial-gradient(circle_at_center,_#31399a_0%,_#252b73_100%)] border-[1.5px] border-amber-800 rounded-[20px] p-4 md:p-6 "
-        img="/img/customer-support.webp"
+        img="/img/contact/reach.webp"
       />
       <ContactUsGenericQuestionSection />
       <ContactUsFAQSection />

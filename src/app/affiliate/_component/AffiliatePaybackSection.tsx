@@ -90,7 +90,7 @@ export const AffiliatePaybackSection = () => {
         dividerClassName="flex-col-reverse md:flex-row"
         descriptionClassName="md:w-[75%]"
         paragraphClassName="text-left text-gray-300"
-        img="/img/sectionImg1.webp"
+        img="/img/affiliate/internatioanl.webp"
       />
       <div className="md:px-34">
         <HeadingSubHeading

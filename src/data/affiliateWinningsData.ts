@@ -2,7 +2,7 @@ export const affiliateWinningsData = [
   {
     id: 1,
     title: "Choose the Suggested Withdrawal Strategy",
-    img: "/img/steps1.webp",
+    img: "/img/affiliate/affiliate-using-1.webp",
     description: `Choose first your method of pulling money out. ph365 gives you many options for withdrawal, therefore enabling your flexibility to select the one most appropriate for you. Although the method you choose will affect processing times and pricing, rest confident your transaction will be handled safely.`,
     subTitle: "Among the usually used withdrawal options are:",
     subList: [
@@ -23,13 +23,13 @@ export const affiliateWinningsData = [
   {
     id: 2,
     title: "Add Withdrawal Information",
-    img: "/img/steps1.webp",
+    img: "/img/affiliate/affiliate-using-2.webp",
     description: `Once you have decided on your preferred withdrawal strategy, you will have to submit the required data. This contains the desired withdrawal amount as well as, depending on your chosen method, the necessary account information—bank account details, wallet addresses, or any other relevant identifying data. Ensuring correctness of all the data will help to avoid any potential delays or issues with your withdrawal.`,
   },
   {
     id: 3,
     title: "Request a Withdrawal",
-    img: "/img/steps1.webp",
+    img: "/img/affiliate/affiliate-using-3.webp",
     description: `Enter the necessary details and submit your withdrawal request using the on-screen directions. ph365's system will begin handling your request once it is received in. Recall that every withdrawing method handles things differently:`,
     subTitle: "",
     subList: [
@@ -50,7 +50,7 @@ export const affiliateWinningsData = [
   {
     id: 4,
     title: "Praise Your Winnings",
-    img: "/img/steps1.webp",
+    img: "/img/affiliate/affiliate-using-4.webp",
     description: `Once your withdrawal request has been handled, the money will be delivered to your chosen method, therefore enabling you to enjoy your winnings. About e-wallets and cryptocurrencies, this usually happens quickly. Rest assured that the best degree of security is being used in managing your money even if bank transfers could take a little extra. ph365 promises fast and safe money transfer and meticulous management of all withdrawals.`,
   },
 ];

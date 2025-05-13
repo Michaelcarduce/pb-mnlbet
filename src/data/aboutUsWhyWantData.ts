@@ -33,13 +33,13 @@ export const aboutUsWhyWantData = [
   {
     id: 1,
     title: `Friendly Platform for Users`,
-    img: "/img/slotTechniques1.webp",
+    img: "/img/aboutus/aboutus-why-1.webp",
     description: `Designed to be understandable to both new and seasoned bettors, Panalobet ensures that any player might rapidly negotiate and enjoy their gaming surroundings. Our simple layout allows users to quickly access their favoured games, betting options, and free from effort account features. Whether your level of understanding with gambling-new or seasoned, our basic system ensures a flawless and fun betting environment. Easy tools, adaptable architecture, and neat layout guarantee players can concentrate on what counts most-winning and having fun.`,
   },
   {
     id: 2,
     title: `Premium Privacy and Security`,
-    img: "/img/slotTechniques1.webp",
+    img: "/img/aboutus/aboutus-why-2.webp",
     description: `Privacy and security define our primary worries at Panalobet. Since we recognise that online gambling deals with private data, we protect our customers with the most latest security systems. Our systems of security consist of:`,
     subTitle: "",
     subList: [
@@ -60,7 +60,7 @@ export const aboutUsWhyWantData = [
   {
     id: 3,
     title: `Customer Support Around-Clock`,
-    img: "/img/slotTechniques1.webp",
+    img: "/img/aboutus/aboutus-why-3.webp",
     description: `We define a great gaming experience as dependent on customer enjoyment. Our dedicated support personnel is thus on hand around-the-clock to assist you with any enquiries or issues. Whether your needs are in account registration, deposits, withdrawals, technical problems, or general betting guidance, our knowledgeable support team is just a click away. One can get to us using:`,
     subTitle: "",
     subList: [
@@ -82,7 +82,7 @@ export const aboutUsWhyWantData = [
   {
     id: 4,
     title: `Mobile-friendly Experience`,
-    img: "/img/slotTechniques1.webp",
+    img: "/img/aboutus/aboutus-why-4.webp",
     description: `We are aware of the need for online gaming flexibility. Panalobet is thus completely made for mobile devices so that you may enjoy perfect gaming everywhere, at any moment. Whether you use a tablet or a smartphone, our mobile-friendly page provides quick access to all betting options, fast gameplay, and simple navigation. Characteristics of our mobile platform consist in:`,
     subTitle: "",
     subList: [
@@ -104,7 +104,7 @@ export const aboutUsWhyWantData = [
   {
     id: 5,
     title: `Quick and Safe Exchange of Funds`,
-    img: "/img/slotTechniques1.webp",
+    img: "/img/aboutus/aboutus-why-5.webp",
     description: `Using numerous payment methods guarantees fast and hassle-free transactions. We back:`,
     subTitle: "",
     subList: [

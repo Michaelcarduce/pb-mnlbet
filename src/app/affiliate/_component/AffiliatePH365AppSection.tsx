@@ -37,7 +37,7 @@ export const AffiliatePH365AppSection = () => {
         dividerClassName="flex-col-reverse md:flex-row"
         descriptionClassName=""
         paragraphClassName="text-left text-gray-300"
-        img="/img/sectionImg1.webp"
+        img="/img/affiliate/features.webp"
       />
 
       <Heading3 className={cn("mb-4 lg:mb-6 text-left")}>

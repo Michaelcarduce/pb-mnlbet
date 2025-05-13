@@ -15,19 +15,19 @@ export const sportsCardBasketballData: CTACardProps = {
       height: 180,
     },
     {
-      src: "/img/cta/basketball-sub-1.webp",
+      src: "/img/cta/basketball-sub-2.webp",
       alt: "Sports Basketball",
       width: 180,
       height: 180,
     },
     {
-      src: "/img/cta/basketball-sub-1.webp",
+      src: "/img/cta/basketball-sub-3.webp",
       alt: "Sports Basketball",
       width: 180,
       height: 180,
     },
     {
-      src: "/img/cta/basketball-sub-1.webp",
+      src: "/img/cta/basketball-sub-4.webp",
       alt: "Sports Basketball",
       width: 180,
       height: 180,
