@@ -1,34 +1,34 @@
 import { CTACardProps } from "@/types/ctaCardItem";
 
-export const sportsCardData: CTACardProps = {
+export const sportsCardBasketballData: CTACardProps = {
   mainImage: {
-    src: "/img/parent-sports.webp",
-    alt: "Sports",
+    src: "/img/cta/basketball-main.webp",
+    alt: "Sports Basketball",
     width: 250,
     height: 250,
   },
   cTACardItems: [
     {
-      src: "/img/sports-basketball.webp",
+      src: "/img/cta/basketball-sub-1.webp",
       alt: "Sports Basketball",
       width: 180,
       height: 180,
     },
     {
-      src: "/img/sports-esport.webp",
-      alt: "Sports Esports",
+      src: "/img/cta/basketball-sub-1.webp",
+      alt: "Sports Basketball",
       width: 180,
       height: 180,
     },
     {
-      src: "/img/sports-IM-esport.webp",
-      alt: "Sports IM Esports",
+      src: "/img/cta/basketball-sub-1.webp",
+      alt: "Sports Basketball",
       width: 180,
       height: 180,
     },
     {
-      src: "/img/sports-soccer.webp",
-      alt: "Sports Soccer",
+      src: "/img/cta/basketball-sub-1.webp",
+      alt: "Sports Basketball",
       width: 180,
       height: 180,
     },

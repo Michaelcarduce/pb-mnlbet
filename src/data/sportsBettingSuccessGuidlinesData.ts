@@ -2,7 +2,7 @@ export const sportsBettingSuccessGuidlinesData = [
   {
     id: 1,
     title: "Review Carefully",
-    img: "/img/steps1.webp",
+    img: "/img/sports/sports-guidelines-1.webp",
     description: `Doing extensive research is absolutely essential before you lay any bets. In sports betting, knowledge is power; the more you know about the teams, players, and events you are betting on, the greater your odds of making a wise wager. Invest some time researching.`,
     subTitle:
       "Currently Form: Look at teams' or players' most recent performances. Is their struggle or are they on a winning run? This will help you to understand their possibilities for the next game.",
@@ -28,7 +28,7 @@ export const sportsBettingSuccessGuidlinesData = [
   {
     id: 2,
     title: "Manage Your Wallet",
-    img: "/img/steps1.webp",
+    img: "/img/sports/sports-guidelines-2.webp",
     description: `One of the most crucial elements of sports betting is probably bankroll management. Betting without knowing your financial constraints could have terrible effects. These suggestions help you to manage your wallet:`,
     subTitle: "",
     subList: [
@@ -57,7 +57,7 @@ export const sportsBettingSuccessGuidlinesData = [
   {
     id: 3,
     title: "Start small and expand.",
-    img: "/img/steps1.webp",
+    img: "/img/sports/sports-guidelines-3.webp",
     description: `If you're new to sports betting, start modest and raise your stakes little by bit as you learn more. Making large immediate bets can be dangerous and taxing. Step-by-step building of your betting expertise follows here:`,
     subTitle: "",
     subList: [
@@ -78,7 +78,7 @@ export const sportsBettingSuccessGuidlinesData = [
   {
     id: 4,
     title: "Stay under control.",
-    img: "/img/steps1.webp",
+    img: "/img/sports/sports-guidelines-4.webp",
     description: `Remaining level-headed and avoiding allowing emotions control your betting judgments is among the most crucial pieces of advise for effective sports betting. Usually leading to losses, emotional betting can cause illogical choices. Here's how you keep under control:`,
     subTitle: "",
     subList: [

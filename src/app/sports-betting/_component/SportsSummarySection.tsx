@@ -21,7 +21,7 @@ export const SportsSummarySection = () => {
         dividerClassName="flex-col-reverse md:flex-row"
         descriptionClassName=""
         paragraphClassName="text-left text-gray-300"
-        img="/img/sectionImg1.webp"
+        img="/img/sports/summary.webp"
       />
       <div className="pb-4 md:pb-10"></div>
       <Heading5

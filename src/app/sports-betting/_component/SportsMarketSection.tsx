@@ -3,7 +3,10 @@ import { Heading3 } from "@/components/typography/Heading3";
 import { Paragraph } from "@/components/typography/Paragraph";
 import { CallToAction } from "@/components/ui/CallToAction";
 import CTACardGrid from "@/components/ui/CTACardGrid";
-import { sportsCardData } from "@/data/sportsCardData";
+import { sportsCardBasketballData } from "@/data/sportsCardBasketballData";
+import { sportsCardFootballData } from "@/data/sportsCardFootballData";
+import { sportsCardBoxingData } from "@/data/sportsCardBoxingData";
+import { sportsCardTennisData } from "@/data/sportsCardTennisData";
 import React from "react";
 
 export const SportsMarketSection = () => {
@@ -22,7 +25,7 @@ export const SportsMarketSection = () => {
         dividerClassName="flex-col-reverse md:flex-row"
         descriptionClassName=""
         paragraphClassName="text-center md:text-left text-gray-300"
-        img="/img/sportsImage1.webp"
+        img="/img/sports/examining.webp"
         btnLink="/"
         btnText="PLAY NOW"
         buttonClassName="flex justify-center md:justify-start py-4 md:py-6"
@@ -39,7 +42,7 @@ export const SportsMarketSection = () => {
         </Paragraph>
       </div>
       <CTACardGrid
-        {...sportsCardData}
+        {...sportsCardBasketballData}
         containerClassName="px-8 md:px-12 py-2 md:py-4 flex flex-col justify-between gap-2 md:gap-4 md:flex-row overflow-x-hidden"
         mainImageContainerClassName="w-full self-center flex items-center justify-center rounded-md md:w-[300px] md:h-[300px] hover:scale-105 transition-transform"
         gridContainerClassName="grid grid-cols-4 gap-4"
@@ -59,7 +62,7 @@ export const SportsMarketSection = () => {
         </Paragraph>
       </div>
       <CTACardGrid
-        {...sportsCardData}
+        {...sportsCardFootballData}
         containerClassName="px-8 md:px-12 py-2 md:py-4 flex flex-col justify-between gap-2 md:gap-4 md:flex-row overflow-x-hidden"
         mainImageContainerClassName="w-full self-center flex items-center justify-center rounded-md md:w-[300px] md:h-[300px] hover:scale-105 transition-transform"
         gridContainerClassName="grid grid-cols-4 gap-4"
@@ -78,7 +81,7 @@ export const SportsMarketSection = () => {
         </Paragraph>
       </div>
       <CTACardGrid
-        {...sportsCardData}
+        {...sportsCardTennisData}
         containerClassName="px-8 md:px-12 py-2 md:py-4 flex flex-col justify-between gap-2 md:gap-4 md:flex-row overflow-x-hidden"
         mainImageContainerClassName="w-full self-center flex items-center justify-center rounded-md md:w-[300px] md:h-[300px] hover:scale-105 transition-transform"
         gridContainerClassName="grid grid-cols-4 gap-4"
@@ -97,7 +100,7 @@ export const SportsMarketSection = () => {
         </Paragraph>
       </div>
       <CTACardGrid
-        {...sportsCardData}
+        {...sportsCardBoxingData}
         containerClassName="px-8 md:px-12 py-2 md:py-4 flex flex-col justify-between gap-2 md:gap-4 md:flex-row overflow-x-hidden"
         mainImageContainerClassName="w-full self-center flex items-center justify-center rounded-md md:w-[300px] md:h-[300px] hover:scale-105 transition-transform"
         gridContainerClassName="grid grid-cols-4 gap-4"

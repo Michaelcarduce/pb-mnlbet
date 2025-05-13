@@ -3,7 +3,7 @@ import { Heading3 } from "@/components/typography/Heading3";
 import { Paragraph } from "@/components/typography/Paragraph";
 import { CallToAction } from "@/components/ui/CallToAction";
 import CTACardGrid from "@/components/ui/CTACardGrid";
-import { sportsCardData } from "@/data/sportsCardData";
+import { sportsCardBasketballData } from "@/data/sportsCardBasketballData";
 import { slotsCardData } from "@/data/slotsCardData";
 import { fishingCardData } from "@/data/fishingCardData";
 import { casinoCardData } from "@/data/casinoCardData";
@@ -186,7 +186,7 @@ export const AffiliateGreatGamesSection = () => {
         </Paragraph>
         <div className="p-2 md:p-4 bg-[radial-gradient(circle_at_center,_#171717_0%,_#1F1F1F_100%)] rounded-[7px] shadow-md">
           <CTACardGrid
-            {...sportsCardData}
+            {...sportsCardBasketballData}
             containerClassName="px-8 md:px-12 py-2 md:py-4 flex flex-col justify-between gap-2 md:gap-4 md:flex-row overflow-x-hidden"
             mainImageContainerClassName="w-full self-center flex items-center justify-center rounded-md md:w-[300px] md:h-[300px] hover:scale-105 transition-transform"
             gridContainerClassName="grid grid-cols-4 gap-4"
