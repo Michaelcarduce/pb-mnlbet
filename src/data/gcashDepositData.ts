@@ -33,37 +33,37 @@ export const gcashDepositData = [
   {
     id: 1,
     title: `Check-in using your Panalobet account.`,
-    img: "/img/steps1.webp",
+    img: "/img/sabong/sabong-gcash-step-1.webp",
     description: ``,
   },
   {
     id: 2,
     title: `Choose "Deposit" from the menu. Consult the deposit page of the platform`,
-    img: "/img/steps1.webp",
+    img: "/img/sabong/sabong-gcash-step-2.webp",
     description: ``,
   },
   {
     id: 3,
     title: `You should pay with GCash. Its clear blue "G" is unsignable and will make locating it easy.`,
-    img: "/img/steps1.webp",
+    img: "/img/sabong/sabong-gcash-step-3.webp",
     description: ``,
   },
   {
     id: 4,
     title: `Add the amount you wish to deposit here. Find out whether minimum deposits are needed before going ahead.`,
-    img: "/img/steps1.webp",
+    img: "/img/sabong/sabong-gcash-step-4.webp",
     description: ``,
   },
   {
     id: 5,
     title: `Check the paid for. Enter your GCash number; note the OTP received; then, using your MPIN, finish the transaction.`,
-    img: "/img/steps1.webp",
+    img: "/img/sabong/sabong-gcash-step-5.webp",
     description: ``,
   },
   {
     id: 6,
     title: `Immediately credited funds. Once done, your money will be ready for betting in a few short seconds.`,
-    img: "/img/steps1.webp",
+    img: "/img/sabong/sabong-gcash-step-6.webp",
     description: ``,
   },
 ];

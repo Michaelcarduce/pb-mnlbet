@@ -33,31 +33,31 @@ export const gcashWithdrawData = [
   {
     id: 1,
     title: `Click "Withdraw" found in the Withdrawal Section.`,
-    img: "/img/steps1.webp",
+    img: "/img/sabong/sabong-withdraw-1.webp",
     description: ``,
   },
   {
     id: 2,
     title: `Your selected withdrawal method should be GCash.`,
-    img: "/img/steps1.webp",
+    img: "/img/sabong/sabong-withdraw-2.webp",
     description: ``,
   },
   {
     id: 3,
     title: `Enter the amount you wish to withdraw.`,
-    img: "/img/steps1.webp",
+    img: "/img/sabong/sabong-withdraw-3.webp",
     description: ``,
   },
   {
     id: 4,
     title: `Check the transaction then monitor for the movement.`,
-    img: "/img/steps1.webp",
+    img: "/img/sabong/sabong-withdraw-4.webp",
     description: ``,
   },
   {
     id: 5,
     title: `Straightforward Your Money Right Away.`,
-    img: "/img/steps1.webp",
+    img: "/img/sabong/sabong-withdraw-5.webp",
     description: ``,
   },
 ];

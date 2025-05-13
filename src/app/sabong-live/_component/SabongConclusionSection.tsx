@@ -31,7 +31,7 @@ export const SabongConclusionSection = () => {
         dividerClassName="flex-col-reverse md:flex-row"
         descriptionClassName=""
         paragraphClassName="text-left text-gray-300"
-        img="/img/sectionImg1.webp"
+        img="/img/sabong/wager.webp"
       />
       <div className="pb-4 md:pb-10"></div>
       <Heading5

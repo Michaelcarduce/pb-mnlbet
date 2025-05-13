@@ -39,7 +39,7 @@ export const SabongBreedOfGamefowlSection = () => {
         dividerClassName="flex-col-reverse md:flex-row"
         descriptionClassName=""
         paragraphClassName="text-left text-gray-300"
-        img="/img/sectionImg1.webp"
+        img="/img/sabong/sweater.webp"
       />
       <div className="pb-2 md:pb-4"></div>
       <FeatureSection
@@ -72,7 +72,7 @@ export const SabongBreedOfGamefowlSection = () => {
         dividerClassName="flex-col-reverse md:flex-row-reverse"
         descriptionClassName=""
         paragraphClassName="text-left text-gray-300"
-        img="/img/sectionImg1.webp"
+        img="/img/sabong/kelso.webp"
       />
       <div className="pb-2 md:pb-4"></div>
       <FeatureSection
@@ -100,7 +100,7 @@ export const SabongBreedOfGamefowlSection = () => {
         dividerClassName="flex-col-reverse md:flex-row"
         descriptionClassName=""
         paragraphClassName="text-left text-gray-300"
-        img="/img/sectionImg1.webp"
+        img="/img/sabong/hatch.webp"
       />
     </section>
   );

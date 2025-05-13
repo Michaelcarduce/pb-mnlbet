@@ -31,7 +31,7 @@ export const SabongMeronAgainstWalaSection = () => {
         dividerClassName="flex-col-reverse md:flex-row"
         descriptionClassName=""
         paragraphClassName="text-left text-gray-300"
-        img="/img/sectionImg1.webp"
+        img="/img/sabong/betting.webp"
       />
       <div className="pb-2 md:pb-4"></div>
       <Heading3 className={cn("mb-4 lg:mb-6 text-center")}>
@@ -50,7 +50,7 @@ export const SabongMeronAgainstWalaSection = () => {
         dividerClassName="flex-col-reverse md:flex-row-reverse"
         descriptionClassName=""
         paragraphClassName="text-left text-gray-300"
-        img="/img/sectionImg1.webp"
+        img="/img/sabong/understanding.webp"
       />
       <div className="pb-2 md:pb-4"></div>
       <FeatureSection
@@ -63,7 +63,7 @@ export const SabongMeronAgainstWalaSection = () => {
         dividerClassName="flex-col-reverse "
         descriptionClassName="md:w-full"
         paragraphClassName="text-left text-gray-300"
-        img="/img/sectionImg1.webp"
+        img="/img/sabong/examine-features.webp"
       />
     </section>
   );
