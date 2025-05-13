@@ -80,7 +80,7 @@ export const SlotPaylineBetlineSection = () => {
         dividerClassName="flex-col-reverse gap-2 md:gap-4"
         descriptionClassName="md:w-full"
         paragraphClassName="text-left text-gray-300"
-        img="/img/sectionImg1.webp"
+        img="/img/slot/paylines.webp"
       />
     </section>
   );

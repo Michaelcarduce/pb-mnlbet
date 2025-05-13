@@ -37,7 +37,7 @@ export default function Slot() {
         dividerClassName="flex-col-reverse md:flex-row"
         descriptionClassName=""
         paragraphClassName="text-left text-gray-300"
-        img="/img/sectionImg1.webp"
+        img="/img/slot/scatter-symbol.webp"
       />
       <SlotSymbolSection />
       <SlotPaylineBetlineSection />

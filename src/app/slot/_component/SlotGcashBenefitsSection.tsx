@@ -25,7 +25,7 @@ export const SlotGcashBenefitsSection = () => {
         dividerClassName="flex-col-reverse md:flex-row gap-2 md:gap-4"
         descriptionClassName=""
         paragraphClassName="text-left text-gray-300"
-        img="/img/sectionImg1.webp"
+        img="/img/slot/slot-deposit.webp"
       />
       <FeatureSection
         title="Security"
@@ -37,7 +37,7 @@ export const SlotGcashBenefitsSection = () => {
         dividerClassName="flex-col-reverse md:flex-row-reverse gap-2 md:gap-4"
         descriptionClassName=""
         paragraphClassName="text-left text-gray-300"
-        img="/img/sectionImg1.webp"
+        img="/img/slot/slot-security.webp"
       />
       <FeatureSection
         title="Accessibility"
@@ -49,7 +49,7 @@ export const SlotGcashBenefitsSection = () => {
         dividerClassName="flex-col-reverse md:flex-row gap-2 md:gap-4"
         descriptionClassName=""
         paragraphClassName="text-left text-gray-300"
-        img="/img/sectionImg1.webp"
+        img="/img/slot/slot-accessibility.webp"
       />
       <Heading3 className={cn("mb-4 lg:mb-6 text-center mt-8 lg:mt-12")}>
         Conclusion

@@ -18,7 +18,7 @@ export const CasinoAffiliateProgramSection = () => {
         dividerClassName="flex-col-reverse md:flex-row"
         descriptionClassName=""
         paragraphClassName="text-center md:text-left text-gray-300"
-        img="/img/sportsImage1.webp"
+        img="/img/casino/affiliate.webp"
         btnLink="/"
         btnText="PLAY NOW"
         buttonClassName="flex justify-center md:justify-start py-4 md:py-6"
